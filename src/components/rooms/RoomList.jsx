@@ -123,13 +123,13 @@ export const RoomList = () => {
                   className="btn btn-secondary"
                   onClick={() => handleEdit(room)}
                 >
-                  ✏️ Edit
+                   Edit
                 </button>
                 <button
                   className="btn btn-danger"
                   onClick={() => handleDelete(room._id)}
                 >
-                  🗑️ Delete
+                   Delete
                 </button>
               </div>
             </div>

@@ -181,13 +181,13 @@ export const BookingList = () => {
                         className="btn btn-small btn-secondary"
                         onClick={() => handleEdit(booking)}
                       >
-                        ✏️ Edit
+                         Edit
                       </button>
                       <button
                         className="btn btn-small btn-danger"
                         onClick={() => handleDelete(booking._id)}
                       >
-                        ❌ Cancel
+                         Cancel
                       </button>
                     </div>
                   </td>

@@ -137,13 +137,13 @@ export const GuestList = () => {
                         className="btn btn-small btn-secondary"
                         onClick={() => handleEdit(guest)}
                       >
-                        ✏️ Edit
+                         Edit
                       </button>
                       <button
                         className="btn btn-small btn-danger"
                         onClick={() => handleDelete(guest._id)}
                       >
-                        🗑️ Delete
+                         Delete
                       </button>
                     </div>
                   </td>
